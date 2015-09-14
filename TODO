@@ -1,0 +1,59 @@
+########################
+#
+#	INFO
+#
+########################
+
+
+/=======================
+*
+* 	~ REQUIRE 
+*
+=======================/
+webfont loader - https://developers.google.com/fonts/
+lazyloader 
+--https://dryan.github.io/lazyloader/
+--https://github.com/dryan/lazyloader
+--http://dcarrith.github.io/jquery.mobile.lazyloader/ (mobile)
+modernizr {package}
+p5.js
+*p5-sound.js
+https://github.com/processing/p5.js-sound
+bower & grunt
+less
+tracking face models
+https://github.com/auduno/clmtools
+
+2.
+JavaScript Computer Vision library.
+https://github.com/levonter/jsfeat
+
+*****
+hi-res studios
+http://void.hi-res.net/calvarium
+*****
+
+
+/=======================
+*
+* 	~ TODO 
+*
+=======================/
+
+
+
+
+/=======================
+*
+* 	~ TEST 
+*
+=======================/
+
+
+
+
+/=======================
+*
+* 	~ SETTINGS 
+*
+=======================/
