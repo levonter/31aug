@@ -519,14 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "README.md",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -541,6 +533,14 @@
 		[
 			[
 				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"npm",
+				"npm: Install Package"
+			],
+			[
+				"package is",
 				"Package Control: Install Package"
 			],
 			[
@@ -564,13 +564,23 @@
 				"Bookmarks: Select All"
 			]
 		],
-		"width": 508.0
+		"width": 583.0
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 131.0,
 		"history":
 		[
+			"npm install grunt",
+			"set a ",
+			"clear()",
+			"clear",
+			"<string>",
+			"clear",
+			"grunt",
+			"$grunt",
+			"$ grunt",
+			"grunt"
 		]
 	},
 	"distraction_free":
@@ -584,10 +594,15 @@
 	},
 	"expanded_folders":
 	[
-		"/Applications/AMPPS/www/31aug"
+		"/Applications/AMPPS/www/31aug",
+		"/Applications/AMPPS/www/31aug/node_modules"
 	],
 	"file_history":
 	[
+		"/Applications/AMPPS/www/31aug/index.html",
+		"/Applications/AMPPS/www/31aug/TODO",
+		"/Applications/AMPPS/www/31aug/index.php",
+		"/Applications/AMPPS/www/31aug/README.md",
 		"/Applications/AMPPS/www/visavis/www/info.php",
 		"/Applications/AMPPS/www/legoland/index.html",
 		"/Applications/AMPPS/www/visavis/assets/css/style.css",
@@ -711,11 +726,7 @@
 		"/Applications/MAMP/htdocs/hem/auth/fb-access.php",
 		"/Applications/MAMP/htdocs/hem/auth/oyun.php",
 		"/Applications/MAMP/htdocs/hem/hemoop/library/mysql.php",
-		"/Applications/MAMP/htdocs/hem/index.php",
-		"/Applications/MAMP/htdocs/hem/auth/gamelimit_off.php",
-		"/Applications/MAMP/htdocs/hem/auth/tarih_test.php",
-		"/Applications/MAMP/htdocs/hem/auth/test2.php",
-		"/Applications/MAMP/htdocs/hem/hemoop/assets/js/app.js"
+		"/Applications/MAMP/htdocs/hem/index.php"
 	],
 	"find":
 	{
@@ -893,37 +904,18 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "README.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
@@ -943,17 +935,31 @@
 				0,
 				0,
 				1,
+				2
+			],
+			[
+				1,
+				0,
+				2,
 				1
+			],
+			[
+				1,
+				1,
+				2,
+				2
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
+			0.5,
 			1.0
 		]
 	},
@@ -969,6 +975,10 @@
 	"output.sftp":
 	{
 		"height": 0.0
+	},
+	"output.textarea":
+	{
+		"height": 98.0
 	},
 	"pinned_build_system": "",
 	"project": "31aug.sublime-project",
@@ -1055,6 +1065,27 @@
 	"selected_group": 0,
 	"settings":
 	{
+		"last_automatic_layout":
+		[
+			[
+				0,
+				0,
+				1,
+				2
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		]
 	},
 	"show_minimap": false,
 	"show_open_files": false,

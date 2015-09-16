@@ -1,0 +1,17 @@
+::-webkit-scrollbar {display: none;}             /* 1 */
+::-webkit-scrollbar-button {display: none;}      /* 2 */
+::-webkit-scrollbar-track {display: none;}       /* 3 */
+::-webkit-scrollbar-track-piece {display: none;} /* 4 */
+::-webkit-scrollbar-thumb {display: none;}       /* 5 */
+::-webkit-scrollbar-corner {display: none;}      /* 6 */
+::-webkit-resizer {display: none;}
+
+* {-webkit-touch-callout: none; -webkit-text-size-adjust: none; -webkit-tap-highlight-color: transparent; outline: none; -webkit-user-drag: none; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-weight: normal; }
+html,body {margin:0;padding:0;}
+body {width: 100%; height: 100%;font-family: "proxima-nova", sans_serif;font-weight: 400;/*regular*/ }
+#wrapper {width: 100%; height: 100%; overflow: hidden; }
+/*====================#
+# 	general settings
+======================*/
+.clear {clear: both; }
+a {text-decoration: none; }
