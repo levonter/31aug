@@ -1,0 +1,68 @@
+// Width variables (appears count calculates by raw css)
+@width0: 100%; // Appears 2 times
+// Height variables (appears count calculates by raw css)
+@height0: 100%; // Appears 2 times
+{
+    &::-webkit-scrollbar {
+        display: none;
+    }
+    &::-webkit-scrollbar-button {
+        display: none;
+    }
+    &::-webkit-scrollbar-track {
+        display: none;
+    }
+    &::-webkit-scrollbar-track-piece {
+        display: none;
+    }
+    &::-webkit-scrollbar-thumb {
+        display: none;
+    }
+    &::-webkit-scrollbar-corner {
+        display: none;
+    }
+    &::-webkit-resizer {
+        display: none;
+    }
+}
+
+* {
+    -moz-box-sizing: border-box;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: none;
+    -webkit-touch-callout: none;
+    -webkit-user-drag: none;
+    box-sizing: border-box;
+    font-weight: normal;
+    outline: none;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "proxima-nova", sans_serif;
+    font-weight: 400;
+    height: @height0;
+    margin: 0;
+    padding: 0;
+    width: @width0;
+}
+
+#wrapper {
+    height: @height0;
+    overflow: hidden;
+    width: @width0;
+}
+
+.clear {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
