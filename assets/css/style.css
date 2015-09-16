@@ -1,30 +1,9 @@
-::-webkit-scrollbar {
-  display: none;
-}
-/* 1 */
-::-webkit-scrollbar-button {
-  display: none;
-}
-/* 2 */
-::-webkit-scrollbar-track {
-  display: none;
-}
-/* 3 */
-::-webkit-scrollbar-track-piece {
-  display: none;
-}
-/* 4 */
-::-webkit-scrollbar-thumb {
-  display: none;
-}
-/* 5 */
-::-webkit-scrollbar-corner {
-  display: none;
-}
-/* 6 */
-::-webkit-resizer {
-  display: none;
-}
+/*sourcecdodepro_google*/
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,200,700);
+::-webkit-scrollbar {display: none; } /* 1 */ ::-webkit-scrollbar-button {display: none; } /* 2 */ ::-webkit-scrollbar-track {display: none; } /* 3 */ ::-webkit-scrollbar-track-piece {display: none; } /* 4 */ ::-webkit-scrollbar-thumb {display: none; } /* 5 */ ::-webkit-scrollbar-corner {display: none; } /* 6 */ ::-webkit-resizer {display: none; } 
+/*====================#
+#   general settings
+======================*/
 * {
   -webkit-touch-callout: none;
   -webkit-text-size-adjust: none;
@@ -42,7 +21,9 @@ html,
 body {
   margin: 0;
   padding: 0;
+  background: #262626
 }
+
 body {
   width: 100%;
   height: 100%;
@@ -50,40 +31,24 @@ body {
   font-weight: 400;
   /*regular*/
 }
+
 #wrapper {
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
-/*====================#
-# 	general settings
-======================*/
+
+a:link,
+a:active,
+a:visited,
+a:hover {
+  text-decoration: none;
+}
+
 .clear {
   clear: both;
 }
-a {
-  text-decoration: none;
-}
-.me {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  margin-left: -50px;
-  margin-top: -10px;
-  width: 100px;
-  height: 20px;
-}
 
-.me span {
-  display: block;
-  font-family: "Source Code Pro", sans-serif;
-  font-weight: 200;
-  font-size: 20px;
-  color: #e1e1e1;
-  background: #262626;
-}
 
-.me span.mail {
-  margin-left: -10px;
-  font-size: 14px;
-}
+/* SKELETON */
+
