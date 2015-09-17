@@ -1,0 +1,37 @@
+{
+  "name": "31aug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "31aug.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gihub.com/levonter/31aug.git"
+  },
+  "author": "levent kaya",
+  "license": "ISC",
+  "devDependencies": {
+    "connect-livereload": "^0.5.3",
+    "convert-source-map": "^1.1.1",
+    "dargs": "^4.0.1",
+    "each-async": "^1.1.1",
+    "glob": "^5.0.14",
+    "grunt": "^0.4.5",
+    "gulp-autoprefixer": "^3.0.1",
+    "gulp-connect": "^2.2.0",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-ruby-sass": "^1.0.0",
+    "gulp-util": "^3.0.6",
+    "mkdirp": "^0.5.1",
+    "object-assign": "^4.0.1",
+    "php": "0.0.1",
+    "rimraf": "^2.4.3",
+    "slash": "^1.0.0",
+    "tiny-lr": "^0.1.6",
+    "vinyl": "^0.5.3",
+    "win-spawn": "^2.0.0"
+  }
+}
